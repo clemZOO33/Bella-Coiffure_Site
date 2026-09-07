@@ -39,7 +39,7 @@
 
   header {
     background: #B07F6E;
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
     color: white;
     font-family: 'Fraunces', serif;
@@ -47,7 +47,13 @@
 
   h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 36px;
+  }
+
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    margin-bottom: 10px;
   }
 
   .section {
@@ -57,6 +63,11 @@
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
   }
 
   label {
@@ -89,12 +100,7 @@
     background: #8e6658;
   }
 
-  .contact-info {
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  a.tel {
+  .contact-info a {
     color: #B07F6E;
     font-weight: bold;
     text-decoration: none;
@@ -109,19 +115,53 @@
   <p>Coiffeuse à domicile – Braud-et-Saint-Louis</p>
 </header>
 
+<!-- SECTION ACCUEIL -->
+<div class="section">
+  <h2>Une coiffeuse qui vient chez vous</h2>
+  <p>
+    Bella Coiffure est un service de coiffure à domicile basé à Braud-et-Saint-Louis, pour toute la famille :
+    coupe, couleur, brushing et coiffures d'exception, sans quitter votre maison.
+  </p>
+</div>
+
+<!-- SECTION À PROPOS -->
+<div class="section">
+  <h2>À propos de Bella Coiffure</h2>
+  <p>
+    Coiffeuse indépendante installée à Braud-et-Saint-Louis, je mets mon expérience et ma passion du métier au service de votre bien-être.
+    Chaque rendez-vous est pensé pour vous : une écoute attentive, du matériel professionnel et une prestation soignée,
+    réalisée dans le calme de votre maison.
+  </p>
+  <p>
+    Je me déplace à Braud-et-Saint-Louis et dans les communes voisines de l'Estuaire de la Gironde
+    (Blaye, Saint-Ciers-sur-Gironde, Étauliers, Anglade...) pour les coupes, couleurs, brushings et coiffures d'événement,
+    pour toute la famille.
+  </p>
+</div>
+
+<!-- SECTION VALEURS -->
+<div class="section">
+  <h2>Mes valeurs</h2>
+  <p>✔ Écoute et bienveillance à chaque rendez-vous</p>
+  <p>✔ Hygiène rigoureuse et matériel professionnel</p>
+  <p>✔ Ponctualité et respect de votre temps</p>
+  <p>✔ Prix transparents, annoncés avant la prestation</p>
+</div>
+
+<!-- SECTION CONTACT -->
 <div class="section">
   <h2>Contact</h2>
   <p class="contact-info">
-    📞 Téléphone : <a class="tel" href="tel:0620614293">06 20 61 42 93</a><br>
+    📞 Téléphone : <a href="tel:0620614293">06 20 61 42 93</a><br>
     📍 Adresse : 1 Parc de Cochet, 33820 Braud-et-Saint-Louis
   </p>
 </div>
 
+<!-- SECTION FORMULAIRE -->
 <div class="section">
   <h2>Prendre rendez-vous</h2>
   <p>Envoyez votre demande, je la reçois directement par email.</p>
 
-  <!-- FORMULAIRE FONCTIONNEL -->
   <form action="https://formsubmit.co/clement.sermadiras@gmail.com" method="POST">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_template" value="table">
@@ -141,4 +181,3 @@
 
 </body>
 </html>
-
