@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bella Coiffure – Coiffeuse à domicile à Braud-et-Saint-Louis (33)</title>
+<meta name="description" content="Bella Coiffure, coiffeuse à domicile à Braud-et-Saint-Louis en Gironde. Coupe, couleur, brushing et coiffure événementielle pour toute la famille. Devis gratuit, appelez maintenant.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Balisage local SEO : à compléter avec le vrai numéro de téléphone -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Bella Coiffure",
+  "image": "",
+  "telephone": "+33620614293",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1 Parc de Cochet",
+    "postalCode": "33820",
+    "addressLocality": "Braud-et-Saint-Louis",
+    "addressCountry": "FR"
+  },
+  "areaServed": ["Braud-et-Saint-Louis", "Blaye", "Saint-Ciers-sur-Gironde", "Étauliers", "Anglade"],
+  "taxID": "81497014100010"
+}
+</script>
+
+<style>
+  :root {
+    --color-bg: #FAF6F1;
+    --color-surface: #FFFFFF;
+    --color-surface-alt: #F1E7DE;
+    --color-text: #3B2A2C;
+    --color-text-muted: #7A6660;
+    --color-accent: #B97D6B;
+    --color-accent-dark: #8C5A4C;
+    --color-gold: #B4915A;
+    --color-line: #E4D5C8;
+
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+    --radius-arch: 200px 200px 0 0;
+    --max-width: 1100px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--color-text);
+    line-height: 1.15;
+    margin: 0 0 0.5em 0;
+  }
+
+  h1 { font-size: clamp(2.1rem, 5vw, 3.2rem); }
+  h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+  h3 { font-size: 1.15rem; }
+
+  p { margin: 0 0 1em 0; color: var(--color-text-muted); max-width: 62ch; }
+
+  a { color: var(--color-accent-dark); }
+
+  img, svg { max-width: 100%; display: block; }
+
+  .container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .section { padding: 88px 0; }
+  .section-alt { background: var(--color-surface-alt); }
+
+  .section-intro { margin-bottom: 40px; }
+  .eyebrow-line {
+    width: 40px;
+    height: 2px;
+    background: var(--color-gold);
+    margin-bottom: 18px;
+    border: none;
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.98rem;
+    padding: 14px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .btn:focus-visible {
+    outline: 3px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+  .btn-primary {
+    background: var(--color-accent-dark);
+    color: #FFF7F2;
+  }
+  .btn-primary:hover { background: #74463B; }
+
+  .btn-outline {
+    background: transparent;
+    border-color: var(--color-accent-dark);
+    color: var(--color-accent-dark);
+  }
+  .btn-outline:hover { background: rgba(140, 90, 76, 0.08); }
+
+  .btn-whatsapp {
+    background: #3F7A5A;
+    color: #FFFFFF;
+  }
+  .btn-whatsapp:hover { background: #345F47; }
+
+  /* ---------- Header ---------- */
+  header.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(250, 246, 241, 0.94);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--color-line);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+  .logo {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--color-accent-dark);
+    text-decoration: none;
+  }
+  nav.main-nav { display: flex; align-items: center; gap: 28px; }
+  nav.main-nav a.nav-link {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  nav.main-nav a.nav-link:hover { color: var(--color-accent-dark); }
+
+  .nav-toggle { display: none; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding: 64px 0 80px;
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .hero-photo {
+    aspect-ratio: 4 / 5;
+    background: linear-gradient(160deg, var(--color-surface-alt), #E7C9BA);
+    border-radius: var(--radius-arch);
+    border: 1px solid var(--color-line);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 24px;
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .hero-trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-line);
+  }
+  .hero-trust span {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .hero-trust span::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--color-gold);
+    flex-shrink: 0;
+  }
+  .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
+
+  /* ---------- Services ---------- */
+  .price-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+  }
+  .price-table caption {
+    text-align: left;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    padding: 16px 20px;
+    background: var(--color-surface-alt);
+    border-bottom: 1px solid var(--color-line);
+  }
+  .price-table td {
+    padding: 15px 20px;
+    border-top: 1px solid var(--color-line);
+    color: var(--color-text);
+  }
+  .price-table td:last-child {
+    text-align: right;
+    color: var(--color-accent-dark);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .price-tables-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .price-note {
+    margin-top: 24px;
+    font-size: 0.92rem;
+  }
+
+  /* ---------- About ---------- */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .values-list {
+    list-style: none;
+    margin: 24px 0 0 0;
+    padding: 0;
+    display: grid;
+    gap: 14px;
+  }
+  .values-list li {
+    padding-left: 22px;
+    position: relative;
+    color: var(--color-text);
+    font-size: 0.98rem;
+  }
+  .values-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 7px;
+    height: 7px;
+    background: var(--color-accent);
+    border-radius: 50%;
+  }
+
+  /* ---------- Reviews ---------- */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .review-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-arch) / 60px 60px 0 0;
+    padding: 40px 26px 28px;
+    text-align: center;
+  }
+  .review-card p.quote {
+    color: var(--color-text);
+    font-style: italic;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    max-width: none;
+  }
+  .review-author {
+    font-size: 0.88rem;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+
+  /* ---------- Contact ---------- */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .contact-block { margin-bottom: 28px; }
+  .contact-block h3 { margin-bottom: 6px; }
+  .contact-block a { text-decoration: none; font-weight: 600; }
+
+  form.booking-form {
+    display: grid;
+    gap: 16px;
+  }
+  .booking-form label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .booking-form input,
+  .booking-form textarea {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 0.98rem;
+    padding: 12px 14px;
+    border: 1.5px solid var(--color-line);
+    border-radius: 6px;
+    background: var(--color-surface);
+    color: var(--color-text);
+  }
+  .booking-form input:focus,
+  .booking-form textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+  }
+  .map-embed {
+    margin-top: 24px;
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .map-embed iframe { width: 100%; height: 260px; border: 0; display: block; }
+
+  /* ---------- Sticky bottom call bar (mobile) ---------- */
+  .sticky-call-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 60;
+    background: var(--color-accent-dark);
+    display: none;
+  }
+  .sticky-call-bar a {
+    display: block;
+    text-align: center;
+    color: #FFF7F2;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  /* ---------- Footer ---------- */
+  footer.site-footer {
+    background: #2E2022;
+    color: #D8C9C4;
+    padding: 48px 0 28px;
+    font-size: 0.88rem;
+  }
+  footer.site-footer a { color: #EFD9CE; }
+  .footer-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    margin-bottom: 20px;
+  }
+  .footer-logo {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #F3E6DF;
+  }
+
+  /* ---------- Reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .hero-grid,
+    .about-grid,
+    .contact-grid { grid-template-columns: 1fr; }
+    .hero-grid { gap: 40px; }
+    .hero-photo { order: -1; aspect-ratio: 16 / 10; }
+    .price-tables-grid { grid-template-columns: 1fr; }
+    .reviews-grid { grid-template-columns: 1fr; }
+    nav.main-nav { display: none; }
+    .header-inner { padding: 14px 20px; }
+    .section { padding: 64px 0; }
+    .sticky-call-bar { display: block; }
+    body { padding-bottom: 54px; } /* room for sticky bar */
+  }
+
+  @media (max-width: 480px) {
+    .container { padding: 0 18px; }
+    .review-card { padding: 32px 20px 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#accueil" class="logo">Bella Coiffure</a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a class="nav-link" href="#services">Services &amp; tarifs</a>
+      <a class="nav-link" href="#apropos">À propos</a>
+      <a class="nav-link" href="#avis">Avis</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="btn btn-primary" href="tel:+33620614293">Appeler maintenant</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. ACCUEIL -->
+  <section id="accueil" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Une coiffeuse qui vient chez vous, avec tout son savoir-faire</h1>
+        <p>
+          Bella Coiffure est un service de coiffure à domicile basé à
+          Braud-et-Saint-Louis, pour toute la famille&nbsp;: coupe, couleur,
+          brushing et coiffures d'exception, sans quitter votre maison.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="tel:+33620614293">Appeler maintenant</a>
+          <a class="btn btn-outline" href="#services">Voir les tarifs</a>
+        </div>
+        <div class="hero-trust">
+          <span>Coiffure à domicile</span>
+          <span>Matériel professionnel</span>
+          <span>Devis gratuit</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- Remplacer ce bloc par une vraie photo : <img src="votre-photo.jpg" alt="Bella Coiffure au travail"> -->
+        Photo à venir
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SERVICES & TARIFS -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <div class="section-intro">
+        <hr class="eyebrow-line">
+        <h2>Services &amp; tarifs</h2>
+        <p>Des prestations pensées pour votre confort, avec des tarifs annoncés à l'avance.</p>
+      </div>
+
+      <div class="price-tables-grid">
+        <table class="price-table">
+          <caption>Femme</caption>
+          <tbody>
+            <tr><td>Coupe + brushing</td><td>dès 35&nbsp;€</td></tr>
+            <tr><td>Coloration</td><td>dès 55&nbsp;€</td></tr>
+            <tr><td>Mèches / balayage</td><td>dès 70&nbsp;€</td></tr>
+            <tr><td>Chignon / coiffure de soirée</td><td>dès 45&nbsp;€</td></tr>
+          </tbody>
+        </table>
+
+        <table class="price-table">
+          <caption>Homme &amp; enfant</caption>
+          <tbody>
+            <tr><td>Coupe homme</td><td>dès 20&nbsp;€</td></tr>
+            <tr><td>Coupe + barbe</td><td>dès 28&nbsp;€</td></tr>
+            <tr><td>Coupe enfant (- 12 ans)</td><td>dès 15&nbsp;€</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="price-note">
+        Un supplément déplacement peut s'appliquer selon la distance.
+        Devis gratuit par téléphone au <a href="tel:+33620614293">06 20 61 42 93</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. À PROPOS -->
+  <section id="apropos" class="section">
+    <div class="container about-grid">
+      <div>
+        <hr class="eyebrow-line">
+        <h2>À propos de Bella Coiffure</h2>
+        <p>
+          Coiffeuse indépendante installée à Braud-et-Saint-Louis, je mets mon
+          expérience et ma passion du métier au service de votre bien-être.
+          Chaque rendez-vous est pensé pour vous&nbsp;: une écoute attentive,
+          du matériel professionnel et une prestation soignée, réalisée dans
+          le calme de votre maison.
+        </p>
+        <p>
+          Je me déplace à Braud-et-Saint-Louis et dans les communes voisines
+          de l'Estuaire de la Gironde (Blaye, Saint-Ciers-sur-Gironde,
+          Étauliers, Anglade...) pour les coupes, couleurs, brushings et
+          coiffures d'événement, pour toute la famille.
+        </p>
+      </div>
+      <div>
+        <h3>Mes valeurs</h3>
+        <ul class="values-list">
+          <li>Écoute et bienveillance à chaque rendez-vous</li>
+          <li>Hygiène rigoureuse et matériel professionnel</li>
+          <li>Ponctualité et respect de votre temps</li>
+          <li>Prix transparents, annoncés avant la prestation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. AVIS CLIENTS -->
+  <section id="avis" class="section section-alt">
+    <div class="container">
+      <div class="section-intro">
+        <hr class="eyebrow-line">
+        <h2>Ce qu'en disent mes client(e)s</h2>
+        <p>Quelques retours de client(e)s reçu(e)s à domicile. (Exemples à remplacer par vos vrais avis Google.)</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card">
+          <p class="quote">« Un vrai moment de détente, à la maison, avec un résultat impeccable. Je recommande ! »</p>
+          <p class="review-author">Sophie — Braud-et-Saint-Louis</p>
+        </article>
+        <article class="review-card">
+          <p class="quote">« Ponctuelle, professionnelle et de bon conseil. Ma nouvelle coiffeuse ! »</p>
+          <p class="review-author">Marc — Blaye</p>
+        </article>
+        <article class="review-card">
+          <p class="quote">« Le plaisir du salon sans les contraintes de déplacement. Parfait pour toute la famille. »</p>
+          <p class="review-author">Nathalie — Saint-Ciers-sur-Gironde</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div>
+        <hr class="eyebrow-line">
+        <h2>Prendre rendez-vous</h2>
+        <p>Le plus simple&nbsp;: appelez-moi directement. Vous pouvez aussi m'écrire par WhatsApp ou via le formulaire.</p>
+
+        <div class="contact-block">
+          <h3>Téléphone</h3>
+          <a href="tel:+33620614293">06 20 61 42 93</a>
+        </div>
+
+        <div class="contact-block">
+          <h3>WhatsApp</h3>
+          <a class="btn btn-whatsapp" href="https://wa.me/33620614293" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+        </div>
+
+        <div class="contact-block">
+          <h3>Adresse</h3>
+          <p>1 Parc de Cochet, 33820 Braud-et-Saint-Louis</p>
+        </div>
+
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps?q=1+Parc+de+Cochet,+33820+Braud-et-Saint-Louis&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localisation de Bella Coiffure">
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <!-- Formulaire fonctionnel : les demandes arrivent par email via formsubmit.co -->
+        <form class="booking-form" action="https://formsubmit.co/clement.sermadiras@gmail.com" method="post">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_subject" value="Nouvelle demande de rendez-vous — Bella Coiffure">
+          <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="Nom" required>
+          </div>
+          <div>
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="Téléphone" required>
+          </div>
+          <div>
+            <label for="message">Votre demande (prestation souhaitée, date...)</label>
+            <textarea id="message" name="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="sticky-call-bar">
+  <a href="tel:+33620614293">Appeler maintenant</a>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Bella Coiffure</div>
+        <p style="color:#C7B5AF; margin-top:8px;">Coiffure à domicile — Braud-et-Saint-Louis (33)</p>
+      </div>
+      <div>
+        <p style="color:#C7B5AF;">
+          Artisan, entrepreneur individuel<br>
+          SIRET : 814 970 141 00010<br>
+          1 Parc de Cochet, 33820 Braud-et-Saint-Louis
+        </p>
+      </div>
+    </div>
+    <p style="color:#B29E97; margin:0;">© 2026 Bella Coiffure. Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
