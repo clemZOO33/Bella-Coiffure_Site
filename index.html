@@ -95,7 +95,6 @@
     border: none;
   }
 
-  /* ---------- Buttons ---------- */
   .btn {
     display: inline-flex;
     align-items: center;
@@ -133,7 +132,6 @@
   }
   .btn-whatsapp:hover { background: #345F47; }
 
-  /* ---------- Header ---------- */
   header.site-header {
     position: sticky;
     top: 0;
@@ -168,7 +166,6 @@
   nav.main-nav a.nav-link:hover { color: var(--color-accent-dark); }
   .nav-toggle { display: none; }
 
-  /* ---------- Hero ---------- */
   .hero { padding: 64px 0 80px; }
   .hero-grid {
     display: grid;
@@ -214,7 +211,6 @@
   }
   .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
 
-  /* ---------- Services ---------- */
   .price-table {
     width: 100%;
     border-collapse: collapse;
@@ -247,7 +243,6 @@
   }
   .price-note { margin-top: 24px; font-size: 0.92rem; }
 
-  /* ---------- About ---------- */
   .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -278,7 +273,6 @@
     border-radius: 50%;
   }
 
-  /* ---------- Reviews ---------- */
   .reviews-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -304,7 +298,6 @@
     font-weight: 600;
   }
 
-  /* ---------- Contact ---------- */
   .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -346,7 +339,6 @@
   }
   .map-embed iframe { width: 100%; height: 260px; border: 0; display: block; }
 
-  /* ---------- Sticky bottom call bar (mobile) ---------- */
   .sticky-call-bar {
     position: fixed;
     bottom: 0;
@@ -365,7 +357,6 @@
     text-decoration: none;
   }
 
-  /* ---------- Footer ---------- */
   footer.site-footer {
     background: #2E2022;
     color: #D8C9C4;
@@ -389,13 +380,11 @@
     color: #F3E6DF;
   }
 
-  /* ---------- Reduced motion ---------- */
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     * { transition: none !important; }
   }
 
-  /* ---------- Responsive ---------- */
   @media (max-width: 860px) {
     .hero-grid,
     .about-grid,
@@ -434,7 +423,6 @@
 
 <main>
 
-  <!-- 1. ACCUEIL -->
   <section id="accueil" class="hero">
     <div class="container hero-grid">
       <div>
@@ -461,7 +449,6 @@
     </div>
   </section>
 
-  <!-- 2. SERVICES & TARIFS -->
   <section id="services" class="section section-alt">
     <div class="container">
       <div class="section-intro">
@@ -498,7 +485,6 @@
     </div>
   </section>
 
-  <!-- 3. À PROPOS -->
   <section id="apropos" class="section">
     <div class="container about-grid">
       <div>
@@ -530,7 +516,6 @@
     </div>
   </section>
 
-  <!-- 4. AVIS CLIENTS -->
   <section id="avis" class="section section-alt">
     <div class="container">
       <div class="section-intro">
@@ -555,7 +540,6 @@
     </div>
   </section>
 
-  <!-- 5. CONTACT -->
   <section id="contact" class="section">
     <div class="container contact-grid">
       <div>
